@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-auth-jwt",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.20.0",
+    "bcrypt": "^5.1.1",
+    "drizzle-orm": "^0.38.2",
+    "jsonwebtoken": "^9.0.2",
+    "nuxt": "^3.14.1592",
+    "postgres": "^3.4.5",
+    "vue": "latest",
+    "vue-router": "latest",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@sidebase/nuxt-auth": "^0.10.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.7",
+    "drizzle-kit": "^0.30.1",
+    "vue-tsc": "^2.1.10"
+  }
+}
